@@ -34,7 +34,6 @@ A secure PHP-based leave management system demonstrating CSRF protection, authen
 * **Frontend:** HTML, CSS, Bootstrap
 * **Database:** MySQL (`database/leave_portal.sql`)
 * **Security:** Custom CSRF protection
-* **Version Control:** Git
 
 ---
 
@@ -64,10 +63,10 @@ A secure PHP-based leave management system demonstrating CSRF protection, authen
    Edit `includes/db.php`:
 
    ```php
-   \$host = 'localhost';
-   \$db   = 'csrf\_demo';
-   \$user = 'root';
-   \$pass = '';
+   $host = 'localhost';
+   $db   = 'csrf_demo';
+   $user = 'root';
+   $pass = '';
    ```
 
 6. **Run the project**
