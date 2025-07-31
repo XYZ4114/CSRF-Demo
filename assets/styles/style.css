@@ -1,0 +1,156 @@
+/* Earthy Aesthetic Theme */
+body {
+  background-color: #fefcf3 !important;
+  color: #3e3f3a !important;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff8e7 !important;
+  border-bottom: 1px solid #e6e2d3;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #3e3f3a !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #c86b35 !important;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-p {
+  background-color: #c86b35;
+  border-color: #c86b35;
+  color: #fff;
+}
+
+.btn-p:hover {
+  background-color: #a3522b;
+  border-color: #a3522b;
+  color: #fff;
+}
+
+.btn-outline-l{
+	background-color: transparent;
+	border-color: #78997b;
+	color: #78997b;
+}
+.btn-outline-l:hover{
+	background-color: #78997b;
+	color: #fff;
+}
+
+.btn-outline-p{
+  color: #c86b35;
+  border-color: #c86b35;
+}
+
+.btn-outline-p:hover {
+  background-color: #c86b35;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #92ad94;
+  border-color: #92ad94;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #78997b;
+  border-color: #78997b;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Forms */
+input,
+textarea,
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #dcd8c9;
+  background-color: #fffdf9;
+  color: #3e3f3a;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #c86b35;
+  box-shadow: 0 0 0 0.2rem rgba(200, 107, 53, 0.25);
+}
+
+/* Badges */
+.badge.bg-success {
+  background-color: #92ad94;
+  color: #fff;
+}
+
+.badge.bg-secondary {
+  background-color: #c86b35;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #fff8e7 !important;
+  color: #3e3f3a;
+  border-top: 1px solid #e6e2d3;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Links */
+a {
+  color: #c86b35;
+}
+
+a:hover {
+  color: #a3522b;
+}
+
+/* Custom Pagination Styling */
+ul.pagination .page-link {
+  color: #a3522b !important;
+  border: 1px solid #a3522b !important;
+  background-color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+ul.pagination .page-link:hover {
+  background-color: #c86b35 !important;
+  color: #fff !important;
+}
+
+ul.pagination .page-item.active .page-link {
+  background-color: #a3522b !important;
+  color: #fff !important;
+  border-color: #a3522b !important;
+}
+
+
