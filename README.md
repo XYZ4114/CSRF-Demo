@@ -42,12 +42,14 @@ A secure PHP-based leave management system demonstrating CSRF protection, authen
 
 1. **Clone the repository**
 
-   git clone [https://github.com/yourusername/CSRF-Demo.git](https://github.com/yourusername/CSRF-Demo.git)
+   ```bash
+   git clone https://github.com/yourusername/CSRF-Demo.git
+   ```
 
 2. **Move the project to XAMPP’s `htdocs` directory**
 
    Example:
-   C:\xampp\htdocs\CSRF-Demo
+   `C:\xampp\htdocs\CSRF-Demo`
 
 3. **Start Apache & MySQL via XAMPP**
 
@@ -61,34 +63,20 @@ A secure PHP-based leave management system demonstrating CSRF protection, authen
 
    Edit `includes/db.php`:
 
+   ```php
    \$host = 'localhost';
    \$db   = 'csrf\_demo';
    \$user = 'root';
    \$pass = '';
+   ```
 
 6. **Run the project**
 
    Visit in browser:
-   [http://localhost/CSRF-Demo/index.php](http://localhost/CSRF-Demo/index.php)
 
----
-
-## 🔐 Admin Credentials (Default)
-
-* **Username:** [admin@example.com](mailto:admin@example.com)
-* **Password:** admin123
-
----
-
-## 📁 Project Structure
-
-* `/auth` - Login, register, logout logic
-* `/user` - User dashboard and contact page
-* `/admin` - Admin panel for request review
-* `/includes` - DB, CSRF, header/footer, functions
-* `/assets` - Custom CSS
-* `/database` - SQL import file
-* `/index.php` - Main landing page
+   ```bash
+   http://localhost/CSRF-Demo/index.php
+   ```
 
 ---
 
@@ -100,8 +88,5 @@ This project is licensed under the MIT License.
 
 ## 🙌 Credits
 
-Developed by \[Your Name]. Contributions welcome!
+Developed by \[XYZ](https://github.com/XYZ4114). Contributions welcome!
 
----
-
-Let me know if you want me to include the `/api` folder section or clarify whether you should hide it.
