@@ -87,5 +87,5 @@ This project is licensed under the MIT License.
 
 ## 🙌 Credits
 
-Developed by \[XYZ](https://github.com/XYZ4114). Contributions welcome!
+Developed by [XYZ4114](https://github.com/XYZ4114). Contributions welcome!
 
